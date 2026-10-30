@@ -1,0 +1,16 @@
+<nav class="bg-slate-800 text-white">
+  <ul class="flex flex-wrap gap-4 p-4">
+    <li><a routerLink="/login" routerLinkActive="font-bold underline">Login</a></li>
+    <li><a routerLink="/cadastro" routerLinkActive="font-bold underline">Cadastro</a></li>
+    <li>
+      <a routerLink="/funcionarios" routerLinkActive="font-bold underline" [routerLinkActiveOptions]="{ exact: true }">Lista de funcionários</a>
+    </li>
+    <li><a routerLink="/funcionarios/novo" routerLinkActive="font-bold underline">Novo funcionário</a></li>
+    <li><a routerLink="/enderecos" routerLinkActive="font-bold underline">Endereços</a></li>
+    <li><a routerLink="/contatos" routerLinkActive="font-bold underline">Contatos</a></li>
+  </ul>
+</nav>
+
+<main class="p-6">
+  <router-outlet />
+</main>

@@ -1,0 +1,27 @@
+<div class="flex min-h-[80vh] items-center justify-center px-4">
+  <form class="w-full max-w-md space-y-4 rounded-lg bg-white p-6 shadow">
+    <h1 class="text-center text-2xl font-bold text-slate-800">SistemaRH</h1>
+
+    <div>
+      <label for="email" class="mb-1 block text-sm font-medium text-slate-700">E-mail</label>
+      <input id="email" type="email"
+        class="w-full rounded-md border border-slate-300 px-3 py-2 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-200" />
+    </div>
+
+    <div>
+      <label for="senha" class="mb-1 block text-sm font-medium text-slate-700">Senha</label>
+      <input id="senha" type="password"
+        class="w-full rounded-md border border-slate-300 px-3 py-2 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-200" />
+    </div>
+
+    <button type="button"
+      class="w-full rounded-md bg-blue-600 py-2 font-semibold text-white transition hover:bg-blue-700">
+      Entrar
+    </button>
+
+    <p class="text-center text-sm text-slate-600">
+      Não possui uma conta?
+      <a routerLink="/cadastro" class="font-medium text-blue-600 hover:underline">Cadastre-se</a>
+    </p>
+  </form>
+</div>

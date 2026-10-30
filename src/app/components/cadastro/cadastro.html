@@ -1,0 +1,39 @@
+<div class="flex min-h-[80vh] items-center justify-center px-4">
+  <form class="w-full max-w-md space-y-4 rounded-lg bg-white p-6 shadow">
+    <h1 class="text-center text-2xl font-bold text-slate-800">Criar conta</h1>
+
+    <div>
+      <label for="nome" class="mb-1 block text-sm font-medium text-slate-700">Nome</label>
+      <input id="nome" type="text"
+        class="w-full rounded-md border border-slate-300 px-3 py-2 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-200" />
+    </div>
+
+    <div>
+      <label for="email" class="mb-1 block text-sm font-medium text-slate-700">E-mail</label>
+      <input id="email" type="email"
+        class="w-full rounded-md border border-slate-300 px-3 py-2 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-200" />
+    </div>
+
+    <div>
+      <label for="senha" class="mb-1 block text-sm font-medium text-slate-700">Senha</label>
+      <input id="senha" type="password"
+        class="w-full rounded-md border border-slate-300 px-3 py-2 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-200" />
+    </div>
+
+    <div>
+      <label for="confirmarSenha" class="mb-1 block text-sm font-medium text-slate-700">Confirmar senha</label>
+      <input id="confirmarSenha" type="password"
+        class="w-full rounded-md border border-slate-300 px-3 py-2 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-200" />
+    </div>
+
+    <button type="button"
+      class="w-full rounded-md bg-blue-600 py-2 font-semibold text-white transition hover:bg-blue-700">
+      Cadastrar
+    </button>
+
+    <p class="text-center text-sm text-slate-600">
+      Já possui uma conta?
+      <a routerLink="/login" class="font-medium text-blue-600 hover:underline">Entre</a>
+    </p>
+  </form>
+</div>
